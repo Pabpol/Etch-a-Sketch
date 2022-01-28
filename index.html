@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="title">Etch a Sketch</h1>
+    </div>
+
+    <section class="main">
+        <div class="borderContainer">
+            <div class="container"></div>
+        </div>
+
+        <div class="options">
+            
+            <button class='clearBtn'>Clear</button>
+            
+            
+            <button class='rainbowBtn'>Rainbow</button>
+            <img class="eraserBtn" src="https://img.icons8.com/nolan/64/eraser.png" />
+            <input type="color" name="colorBtn" id="colorBtn">
+        </div>
+        <div class="divSize">
+            <h4 class="gridSizeh4">Grid Size:</h4>
+            <div class="divSlide">
+                <label class="sizeLabel" for="gridSize"></label>
+                <input id="gridSize" type="range" min="1" max="64" value="32">
+            </div>
+            
+        </div>
+    </section>
+
+</body>
+
+</html>
